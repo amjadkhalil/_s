@@ -4,14 +4,14 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package hello-world
+ * @package newname_
  */
 
-if ( ! is_activehello-worldidebar( 'sidebar-1' ) ) {
+if ( ! is_activenewname_idebar( 'sidebar-1' ) ) {
 	return;
 }
 ?>
 
 <aside id="secondary" class="widget-area">
-	<?php dynamichello-worldidebar( 'sidebar-1' ); ?>
+	<?php dynamicnewname_idebar( 'sidebar-1' ); ?>
 </aside><!-- #secondary -->

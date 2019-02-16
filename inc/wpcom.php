@@ -4,7 +4,7 @@
  *
  * This file is centrally included from `wp-content/mu-plugins/wpcom-theme-compat.php`.
  *
- * @package hello-world
+ * @package newname_
  */
 
 /**
@@ -12,7 +12,7 @@
  *
  * @global array $themecolors
  */
-function hello-worldwpcomhello-worldetup() {
+function newname_wpcomnewname_etup() {
 	global $themecolors;
 
 	// Set theme colors for third party services.
@@ -28,4 +28,4 @@ function hello-worldwpcomhello-worldetup() {
 		);
 	}
 }
-add_action( 'afterhello-worldetup_theme', 'hello-worldwpcomhello-worldetup' );
+add_action( 'afternewname_etup_theme', 'newname_wpcomnewname_etup' );

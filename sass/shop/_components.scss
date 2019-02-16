@@ -11,7 +11,7 @@
 		text-decoration: none;
 	}
 
-	.widgethello-worldhopping_cart {
+	.widgetnewname_hopping_cart {
 		display: none;
 	}
 
@@ -227,7 +227,7 @@ p.no-comments {
 	background-color: $woocommerce__color-error;
 }
 
-.demohello-worldtore {
+.demonewname_tore {
 	position: fixed;
 	left: 0;
 	bottom: 0;
@@ -243,7 +243,7 @@ p.no-comments {
 	 * Header cart
 	 */
 	.site-header-cart {
-		.widgethello-worldhopping_cart {
+		.widgetnewname_hopping_cart {
 			position: absolute;
 			top: 100%;
 			width: 100%;
@@ -255,7 +255,7 @@ p.no-comments {
 
 		&:hover,
 		&.focus {
-			.widgethello-worldhopping_cart {
+			.widgetnewname_hopping_cart {
 				left: 0;
 				display: block;
 			}
