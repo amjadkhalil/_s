@@ -8,40 +8,40 @@
  *
  * @link https://developer.wordpress.org/themes/functionality/custom-headers/
  *
- * @package hello-world
+ * @package newname_
  */
 
 /**
  * Set up the WordPress core custom header feature.
  *
- * @uses hello-worldheaderhello-worldtyle()
+ * @uses newname_headernewname_tyle()
  */
-function hello-worldcustom_headerhello-worldetup() {
-	add_themehello-worldupport( 'custom-header', apply_filters( 'hello-worldcustom_header_args', array(
+function newname_custom_headernewname_etup() {
+	add_themenewname_upport( 'custom-header', apply_filters( 'newname_custom_header_args', array(
 		'default-image'          => '',
 		'default-text-color'     => '000000',
 		'width'                  => 1000,
 		'height'                 => 250,
 		'flex-height'            => true,
-		'wp-head-callback'       => 'hello-worldheaderhello-worldtyle',
+		'wp-head-callback'       => 'newname_headernewname_tyle',
 	) ) );
 }
-add_action( 'afterhello-worldetup_theme', 'hello-worldcustom_headerhello-worldetup' );
+add_action( 'afternewname_etup_theme', 'newname_custom_headernewname_etup' );
 
-if ( ! function_exists( 'hello-worldheaderhello-worldtyle' ) ) :
+if ( ! function_exists( 'newname_headernewname_tyle' ) ) :
 	/**
 	 * Styles the header image and text displayed on the blog.
 	 *
-	 * @see hello-worldcustom_headerhello-worldetup().
+	 * @see newname_custom_headernewname_etup().
 	 */
-	function hello-worldheaderhello-worldtyle() {
+	function newname_headernewname_tyle() {
 		$header_text_color = get_header_textcolor();
 
 		/*
 		 * If no custom options for text are set, let's bail.
-		 * get_header_textcolor() options: Any hex value, 'blank' to hide text. Default: add_themehello-worldupport( 'custom-header' ).
+		 * get_header_textcolor() options: Any hex value, 'blank' to hide text. Default: add_themenewname_upport( 'custom-header' ).
 		 */
-		if ( get_themehello-worldupport( 'custom-header', 'default-text-color' ) === $header_text_color ) {
+		if ( get_themenewname_upport( 'custom-header', 'default-text-color' ) === $header_text_color ) {
 			return;
 		}
 
